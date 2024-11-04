@@ -9,7 +9,7 @@
     slurp
     wl-clip-persist
     cliphist
-    wf-recorder
+    #wf-recorder
     glib
     wayland
     direnv
@@ -21,7 +21,7 @@
       enable = true;
       # hidpi = true;
     };
-    # enableNvidiaPatches = false;
+    enableNvidiaPatches = false;
     systemd.enable = true;
   };
 }
