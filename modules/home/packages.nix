@@ -4,7 +4,7 @@ let
 in
 {
   home.packages = (with pkgs; [
-    _2048
+   # _2048
 
     ## CLI utility
     ani-cli
@@ -43,13 +43,13 @@ in
     tdf                               # cli pdf viewer
     tldr
     todo                              # cli todo list
-    toipe                             # typing test in the terminal
+    #toipe                             # typing test in the terminal
     ttyper                            # cli typing test
     unzip
     valgrind                          # c memory analyzer
     wl-clipboard                      # clipboard utils for wayland (wl-copy, wl-paste)
     wget
-    yazi                              # terminal file manager
+    #yazi                              # terminal file manager
     yt-dlp-light
     xdg-utils
     xxd
@@ -64,16 +64,16 @@ in
     ## GUI Apps
     audacity
     bleachbit                         # cache cleaner
-    gimp
-    libreoffice
+    #gimp
+    #libreoffice
     nix-prefetch-github
-    obs-studio
+    #obs-studio
     pavucontrol                       # pulseaudio volume controle (GUI)
     pitivi                            # video editing
     qalculate-gtk                     # calculator
     soundwireserver
-    thunderbird
-    vlc
+    #thunderbird
+    #vlc
     winetricks
     wineWowPackages.wayland
     zenity
@@ -85,7 +85,7 @@ in
 
     # Python
     python3
-    python312Packages.ipython
+    #python312Packages.ipython
 
     inputs.alejandra.defaultPackage.${system}
   ]);
