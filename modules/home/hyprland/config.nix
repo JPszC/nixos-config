@@ -49,6 +49,9 @@
         border_part_of_window = false;
         no_border_on_floating = false;
       };
+      cursor = {
+        no_hardware_cursors = true
+      };
 
       misc = {
         disable_autoreload = true;
